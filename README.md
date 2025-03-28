@@ -2,7 +2,7 @@
 Place holder
 Suggested for how to divide work
 
-Halenur Yeşilova - Frontend
+Halenur Yeşilova - Frontend(React)
 
 Elif Bicer - Backend
 
