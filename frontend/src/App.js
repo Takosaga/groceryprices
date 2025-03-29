@@ -6,7 +6,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/prices') // örnek backend endpoint
+    fetch('http://localhost:5000/api/prices') 
       .then(res => res.json())
       .then(data => setItems(data))
       .catch(err => console.error(err));
