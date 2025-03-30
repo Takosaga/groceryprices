@@ -50,6 +50,10 @@ We propose a **website** that provides the following features:
 - **Styling**: CSS
 
 ---
+## Architecture
+![](https://github.com/Takosaga/groceryprices/blob/main/docs/Website%20Diagram.png)
+![](https://github.com/Takosaga/groceryprices/blob/main/docs/sequence_diagram.png)
+---
 
 ## How to Run the Project
 
