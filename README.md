@@ -54,6 +54,7 @@ We propose a **website** that provides the following features:
 ## Architecture
 ![](https://github.com/Takosaga/groceryprices/blob/main/docs/Website%20Diagram.png)
 ![](https://github.com/Takosaga/groceryprices/blob/main/docs/sequence_diagram.png)
+![](https://github.com/Takosaga/groceryprices/blob/main/docs/db.png)
 ---
 
 ## How to Run the Project
