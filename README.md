@@ -33,7 +33,15 @@ We propose a **website** that provides the following features:
 - Built a prototype using **React** for the frontend and **Flask** for the backend.
 
 ---
+## Team
+- **Līga Švarca** Team Lead
+- **Milana Bolgova** Marketing
+- **Halenur Yeşilova** Frontend, UX
+- **Elif Bicer** Backend
+- **Julia Gifford** Industry Expert
+- **Gonzalo Gamez** Tech Lead
 
+---
 ## Tech Stack
 
 - **Frontend**: React, React Router
