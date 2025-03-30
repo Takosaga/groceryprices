@@ -88,7 +88,12 @@ We propose a **website** that provides the following features:
    ```
    The app will be available at `http://localhost:3000`.
 
+---
 
+## Demo
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWljenJkajY0MXJkem0yb2I0eGNsZjR1bWEyNHVzMjBxMWhlZXR2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T1OchynFoXc0nSN7O5/giphy.gif)
+
+---
 ## Acknowledgments
 
 This project was made possible by the **Women in Tech Hackathon 2025** and the support of **Riga TechGirls**. Special thanks to the mentors and organizers for their guidance and inspiration.
