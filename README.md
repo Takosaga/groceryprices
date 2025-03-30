@@ -37,8 +37,8 @@ We propose a **website** that provides the following features:
 ## Team
 - **Līga Švarca** - Team Lead
 - **Milana Bolgova** - Marketing
-- **Halenur Yeşilova** - Frontend, UX
-- **Elif Bicer** - Backend
+- [**Halenur Yeşilova**](https://github.com/HaleYesilova) - Frontend, UX
+- [**Elif Bicer**](https://github.com/bicerelif) - Backend
 - **Julia Gifford** - Industry Expert
 - **Gonzalo Gamez** - Tech Lead
 
