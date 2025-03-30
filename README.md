@@ -1,4 +1,4 @@
-# Grocery Prices
+# Pārtikas cenu salīdzināšanas portāls / Portal for comparing the prices of groceries
 
 🚀 **Women in Tech Hackathon 2025 – Empowering Innovation & Impact!**
 
