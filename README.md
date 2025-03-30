@@ -48,7 +48,7 @@ We propose a **website** that provides the following features:
 - **Frontend**: React, React Router
 - **Backend**: Flask, SQLAlchemy
 - **Database**: SQLite
-- **Styling**: CSS
+- **AI Model**: Gemini Flash 2.0
 
 ---
 ## Architecture
