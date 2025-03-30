@@ -19,7 +19,7 @@ Food prices have been rising since 2020 and continue to increase in 2025. Consum
 ## Solution
 
 We propose a **website** that provides the following features:
-- View sale brochures from all major stores.
+- View sales extracted brochures from all major stores.
 - Search for specific products and see which store offers discounts that week.
 - Create a personalized shopping list to plan visits to one or more stores.
 - Create a user profile to save preferences and streamline the shopping experience.
