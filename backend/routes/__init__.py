@@ -120,3 +120,25 @@ def get_stores():
             'success': False,
             'error': str(e)
         }), 500
+
+@grocery_bp.route('/api/prices', methods=['GET'])
+def all_prices():
+    try:
+        items = GroceryItem.query.all()
+
+        results = []
+        for item in items:
+            for price in item.prices:
+                results.append({
+                    'name': item.ItemName,
+                    'market': price.store.StoreName,
+                    'price': price.Price
+                })
+
+        return jsonify(results)
+
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500    

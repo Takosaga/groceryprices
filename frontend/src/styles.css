@@ -1,35 +1,139 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #fff7f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    color: #ff6f61;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .card {
-    background-color: #ffe0e9;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    margin: 10px;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-  }
-  
-  .price {
-    font-size: 1.5rem;
-    color: #2a9d8f;
-  }
-  
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff7f0;
+  background-image: url('../public/piggy-bg.png');
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;  /* or try 'cover' */
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  padding: 30px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff4f81;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #333;
+}
+
+.search-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  background: white;
+  border-radius: 40px;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  align-items: center;
+}
+
+.search-form input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background: transparent;
+  width: 250px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4f81;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.price-card {
+  background-color: #ffe0e9;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.price-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price-icon {
+  width: 30px;
+}
+
+.item-name {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.market {
+  font-size: 1rem;
+  color: #444;
+}
+
+.price {
+  font-size: 1.6rem;
+  color: #2a9d8f;
+  margin-top: 5px;
+}
+
+.nav {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.nav a:hover {
+  background-color: #ffe0e9;
+  color: #000;
+}
