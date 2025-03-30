@@ -6,15 +6,28 @@ function Home() {
   const [query, setQuery] = useState('');
 
   const searchItems = async () => {
-    const res = await fetch(`/api/search?q=${query}`);
-    const data = await res.json();
-    if (data.success) {
-      const flatResults = data.results.map(item => ({
-        name: item.itemName,
-        market: item.lowestPrice?.store || 'N/A',
-        price: item.lowestPrice?.price || 'N/A'
-      }));
-      setItems(flatResults);
+    try {
+      const res = await fetch(`/api/search?q=${query}`);
+      const text = await res.text();
+
+      if (!text) {
+        console.warn('Empty response from /api/search');
+        setItems([]);
+        return;
+      }
+
+      const data = JSON.parse(text);
+
+      if (data.success) {
+        const flatResults = data.results.map(item => ({
+          name: item.itemName,
+          market: item.lowestPrice?.store || 'N/A',
+          price: item.lowestPrice?.price || 'N/A'
+        }));
+        setItems(flatResults);
+      }
+    } catch (error) {
+      console.error('Search error:', error);
     }
   };
 
@@ -22,7 +35,7 @@ function Home() {
     fetch('/api/prices')
       .then(res => res.json())
       .then(data => setItems(data))
-      .catch(err => console.error(err));
+      .catch(err => console.error('Error loading prices:', err));
   }, []);
 
   const handleSubmit = (e) => {
