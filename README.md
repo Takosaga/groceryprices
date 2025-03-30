@@ -29,9 +29,9 @@ We propose a **website** that provides the following features:
 ## Progress So Far
 
 - Conducted initial research on existing solutions available in the country.
-- Developed broad theories on how to implement the idea.
+- Developed broad theories then designed solutions to how to implement the idea.
+- Created a sqlite db that has extracted prices from current grocery brochures.
 - Built a prototype using **React** for the frontend and **Flask** for the backend.
-- Created a sqlite db that has extracted prices from current grocery brochures
 
 ---
 ## Team
