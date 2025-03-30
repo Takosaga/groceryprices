@@ -31,6 +31,7 @@ We propose a **website** that provides the following features:
 - Conducted initial research on existing solutions available in the country.
 - Developed broad theories on how to implement the idea.
 - Built a prototype using **React** for the frontend and **Flask** for the backend.
+- Created a sqlite db that has extracted prices from current grocery brochures
 
 ---
 ## Team
