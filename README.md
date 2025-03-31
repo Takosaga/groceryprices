@@ -35,12 +35,12 @@ We propose a **website** that provides the following features:
 
 ---
 ## Team
-- **Līga Švarca** - Team Lead
-- **Milana Bolgova** - Marketing
+- [**Līga Švarca**](https://www.linkedin.com/in/l%C4%ABga-%C5%A1varca/) - Team Lead
+- [**Milana Bolgova**](https://www.linkedin.com/in/milana-bolgova-44b444220/) - Marketing
 - [**Halenur Yeşilova**](https://github.com/HaleYesilova) - Frontend, UX
 - [**Elif Bicer**](https://github.com/bicerelif) - Backend
-- **Julia Gifford** - Industry Expert
-- **Gonzalo Gamez** - Tech Lead
+- [**Julia Gifford**](https://www.linkedin.com/in/juliagifford/) - Industry Expert
+- **Gonzalo Gamez** - Tech Lead, Data Scientist
 
 ---
 ## Tech Stack
